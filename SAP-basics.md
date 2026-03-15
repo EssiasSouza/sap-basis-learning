@@ -52,10 +52,20 @@ This is a special methodology used by SAP to manage projects in SAP environments
   - Settings
   - Developments
   - Unit Tests - Tests of a unit of what was asked is ok.
-  - Integrated tests - In this kind of tests the homologation needs to check all of process that are included in the process of the request are not broken by this new feature.
+  - Integrated tests - In this kind of tests the homologation needs to check all of process that are included in the process of the request are not broken by this new feature. Important to be mapped and followed by the Project manager if all of envolved people are testing the whole test process.
+  - After homologation this fase is finished.
    
 4. Final preparation - Trainings and Cutover
+ - Cutover - Actions to be done next fo the implementation time. Exemple: Inform that this will be changed, anticipate sales and etc.
+ - Training all envolved users to know how is the function after realization step.
+
+5. Go live and Support
+ - Go-live - Time to deploy it
+ - Support - Following possible erros.
+ - KT - Knowlegde Transfer
+ - Project finish - It is usually done in the night or when the users aren't using the system.
+ - Assisted operation - The project team is available to follow for a while to support the next days after the implementment
+ - Finishing project - This is finished when the client firm it as accepted.
 
 
-5. Go live and Support - Time to deploy it and following possible erros.
 
