@@ -67,5 +67,15 @@ This is a special methodology used by SAP to manage projects in SAP environments
  - Assisted operation - The project team is available to follow for a while to support the next days after the implementment
  - Finishing project - This is finished when the client firm it as accepted.
 
+## SOLMAN - SOLUTION MANAGER
 
+This is a tool that gives improvement opportunities included used to create a Blue Print.
+This solution can measure the system usage to improve that.
+Also used to do and manage `integrated tests`.
+This tool allows versioning the Blue Print document.
 
+## PROJECT LIBRE
+
+This is a tool of management of project timeline
+
+## SAP ACTIVATE METHODOLOGY
