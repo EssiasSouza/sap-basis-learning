@@ -79,3 +79,37 @@ This tool allows versioning the Blue Print document.
 This is a tool of management of project timeline
 
 ## SAP ACTIVATE METHODOLOGY
+
+---
+
+# LEARNING STRATEGY
+
+### Books to learn
+1. SAP Administration — Practical Guide
+ - A wide vision of administration of the system
+ - Investigate:
+    - landscape
+    - monitoring
+    - users
+    - logs
+    - Administrative tasks
+2. SAP NetWeaver AS ABAP — System Administration
+ - Administration of application server:
+    - work processes
+    - jobs
+    - dumps
+    - RFC
+    - load balancing
+
+3. SAP HANA 2.0 Installation and Administration
+   - Investigate:
+    - memória
+    - queries
+    - locks
+    - index
+    - storage
+
+- 1️⃣ Como montar um ambiente SAP para estudar (de graça)
+- 2️⃣ Quais transações BASIS você precisa dominar primeiro
+- 3️⃣ qual certificação SAP BASIS vale a pena
+- 4️⃣ qual livro da SAP Press vem depois desse
