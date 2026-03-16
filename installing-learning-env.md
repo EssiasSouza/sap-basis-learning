@@ -183,7 +183,3 @@ Practice:
 * logs
 * jobs
 * user administration
-
-This already puts you **far ahead of people who only take theoretical SAP courses**.
-* the **cost of running SAP study environments in the cloud**
-* how to build a **mini SAP landscape (DEV / QA / PROD)** for learning BASIS like in a real company.
