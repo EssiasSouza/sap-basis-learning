@@ -1,7 +1,7 @@
 # SAP Basics learning
 
 - Consultants - Specialist that knows how to configure through `customizing` panel the functions asked by `key users` in the project.
-- ABAP Developer - A ABAP developer responsible to develop functions that the consultant doesn't achieve to do using the `customize` interface.
+- ABAP Developer or ABAP contaultant - A ABAP developer responsible to develop functions that the consultant doesn't achieve to do using the `customize` interface.
 - Key users - Users from the company that knows the business and their areas and are responsible to inform what is needed.
 
 ### Kinds of SAP Project
@@ -103,13 +103,16 @@ This is a tool of management of project timeline
 
 3. SAP HANA 2.0 Installation and Administration
    - Investigate:
-    - memória
+    - memory
     - queries
     - locks
     - index
     - storage
 
+
+
+<!--
 - 1️⃣ Como montar um ambiente SAP para estudar (de graça)
 - 2️⃣ Quais transações BASIS você precisa dominar primeiro
 - 3️⃣ qual certificação SAP BASIS vale a pena
-- 4️⃣ qual livro da SAP Press vem depois desse
+- 4️⃣ qual livro da SAP Press vem depois desse-->
