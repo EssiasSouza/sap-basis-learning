@@ -1,5 +1,150 @@
 # SAP Basics learning
 
+### Structure
+
+- SAP S/4HANA → The ERP system (application)
+- SAP NetWeaver → Application server
+- SAP HANA → Database
+- Linux → Operating system
+- Cloud / Server → Infrastructure
+
+Stack
+```
+Users
+  ↓
+SAP S/4HANA
+  ↓
+NetWeaver
+  ↓
+SAP HANA (Database)
+  ↓
+Linux
+  ↓
+Server / Cloud
+```
+
+### SAP SECURITY BASICS
+
+User administration in SAP is one of the core responsibilities of SAP BASIS, and it revolves around a few key concepts:
+
+- Users
+- Roles
+- Profiles
+- Authorizations
+- Authorization Objects
+
+Users are created and managed in transaction `SU01`
+
+A SAP user contains:
+
+- Username
+- Password
+- User type
+- Roles Assigned
+- Validity dates
+- Default parameters
+
+#### SAP User types
+
+| Type          | Purpose                        |
+| ------------- | ------------------------------ |
+| Dialog        | Normal human user              |
+| System        | System-to-system communication |
+| Communication | RFC / external systems         |
+| Service       | Shared users                   |
+| Reference     | Used only to assign roles      |
+
+#### Roles
+
+Roles are created in `PFCG`
+
+A role is a container of permissions and it defines:
+
+- Transactions the user can execute
+- Authorization objects
+- Field restrictions (company code, plant, etc)
+
+Example:
+
+| Role        | Access               |
+| ----------- | -------------------- |
+| FI_USER     | Finance transactions |
+| MM_USER     | Materials            |
+| BASIS_ADMIN | Admin transactions   |
+| HR_USER     | HR transactions      |
+
+
+#### Profiles
+
+Profiles are generated from roles
+
+```
+Role → generates → Profile → contains → Authorizations
+---
+User
+  ↓
+Role
+  ↓
+Profile
+  ↓
+Authorizations
+  ↓
+Authorization Objects
+  ↓
+Fields (Company code, activity, etc.)
+```
+
+#### Authorization Objects
+
+An authorization object controls access based on fields like:
+
+- Activity (read, write, delete)
+- Company code
+- Plant
+- Sales organization
+- Document Type
+
+Example:
+
+Authorization Object: F_BKPF_BUK
+
+
+Fields
+
+| Field | Meaning      |
+| ----- | ------------ |
+| BUKRS | Company Code |
+| ACTVT | Activity     |
+
+Activity values
+
+| Value | Meaning |
+| ----- | ------- |
+| 01    | Create  |
+| 02    | Change  |
+| 03    | Display |
+| 06    | Delete  |
+
+So you could allow a user to:
+
+- Display documents
+- Only for company 1000
+- But not change
+
+#### Important transactions for User Administration
+
+| Transaction | Purpose                      |
+| ----------- | ---------------------------- |
+| SU01        | Create/change user           |
+| PFCG        | Roles                        |
+| SUIM        | User reports                 |
+| SU53        | Authorization error analysis |
+| ST01        | Authorization trace          |
+| SM19        | Security audit log           |
+| SM20        | Security audit log analysis  |
+
+**PRAM was replaced by PFCG-based role concept**
+---
 - Consultants - Specialist that knows how to configure through `customizing` panel the functions asked by `key users` in the project.
 - ABAP Developer or ABAP contaultant - A ABAP developer responsible to develop functions that the consultant doesn't achieve to do using the `customize` interface.
 - Key users - Users from the company that knows the business and their areas and are responsible to inform what is needed.
