@@ -1,3 +1,12 @@
+# ADMINISTRATION
+- Installation
+- Post installation
+- DB Installation
+- Update
+- Backup
+- Monitoring
+- TMS
+
 # How to Build a SAP Environment for Studying
 
 Building a **SAP environment for learning** is one of the biggest challenges for beginners in SAP BASIS. SAP systems are not like installing MySQL or Linux—they are heavy, licensed, and require significant hardware resources.
