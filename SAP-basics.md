@@ -254,6 +254,17 @@ This is a tool of management of project timeline
     - index
     - storage
 
+---
+# SAP ACTIVATE
+
+SAP ACTIVATE is a project management methodology to perform changes on a SAP environment to implement, fix, update, configure or develop some new features.
+
+This methodology 
+
+
+
+
+
 
 
 <!--
