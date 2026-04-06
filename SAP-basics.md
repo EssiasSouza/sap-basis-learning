@@ -3,6 +3,15 @@ This is my basic studies of SAP that I have structured by myself.
 
 - [Structure](#structure)
 - [SAP SECURITY BASICS](#sap-security-basics)
+- [Kinds of SAP Project](#kinds-of-sap-project)
+- [Common SAP modules])(#common-sap-modules)
+- [SAP LANDSCAPE](#sap-landscape)
+- [ASAP Methodology](#asap-methodology)
+- [Clients](#clients)
+- [SOLMAN - SOLUTION MANAGER](#solman-solution-manager)
+- [PROJECT LIBRE](#project-libre)
+- [SAP ACTIVATE METHODOLOGY](#sap-activate-methodology)
+- [LEARNING STRATEGY](#learning-strategy)
 
 
 
@@ -30,7 +39,7 @@ Linux
 Server / Cloud
 ```
 
-### SAP SECURITY BASICS
+## SAP SECURITY BASICS
 
 User administration in SAP is one of the core responsibilities of SAP BASIS, and it revolves around a few key concepts:
 
@@ -156,13 +165,13 @@ So you could allow a user to:
 - ABAP Developer or ABAP contaultant - A ABAP developer responsible to develop functions that the consultant doesn't achieve to do using the `customize` interface.
 - Key users - Users from the company that knows the business and their areas and are responsible to inform what is needed.
 
-### Kinds of SAP Project
+## Kinds of SAP Project
 - Implement SAP project - To implement the SAP on a company that doesn't have an ERP yet.
 - Rollout SAP Project - To implement the SAP in a company branch
 - Upgrade SAP Project - To implement upgrades and updates in a company
 - Improvements SAP project - To create improvements.
 
-### Common SAP modules
+## Common SAP modules
 
 When a company buy the system receives some done modules to implement in a company.
 
