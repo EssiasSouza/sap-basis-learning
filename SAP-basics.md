@@ -1,6 +1,13 @@
 # SAP Basics learning
+This is my basic studies of SAP that I have structured by myself.
 
-### Structure
+- [Structure](#structure)
+- [SAP SECURITY BASICS](#sap-security-basics)
+
+
+
+## Structure
+This is a short discription of SAP structure.
 
 - SAP S/4HANA → The ERP system (application)
 - SAP NetWeaver → Application server
@@ -211,6 +218,30 @@ This is a special methodology used by SAP to manage projects in SAP environments
  - Project finish - It is usually done in the night or when the users aren't using the system.
  - Assisted operation - The project team is available to follow for a while to support the next days after the implementment
  - Finishing project - This is finished when the client firm it as accepted.
+
+## Clients
+
+Clients are isolated environments in the SAP System to enclosures some access, right and other things about this X process.
+
+There are 2 ways of installation.
+  1. IDES
+     There are 7 clients create with the installation process
+     ```
+     000 - Master client
+     001 - Master client
+     066 - Early watch client
+     800
+     810
+     811
+     812
+     ```
+  3. NON-IDES
+     There are 3 clients create with the installation process
+     ```
+     000 - Master client
+     001 - Master client
+     066 - Early watch client
+     ```
 
 ## SOLMAN - SOLUTION MANAGER
 
