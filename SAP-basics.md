@@ -8,6 +8,7 @@ This is my basic studies of SAP that I have structured by myself.
 - [SAP LANDSCAPE](#sap-landscape)
 - [ASAP Methodology](#asap-methodology)
 - [Clients](#clients)
+- [SAP* and DDIC Super Users](#sap-and-ddic-super-users)
 - [SOLMAN - SOLUTION MANAGER](#solman-solution-manager)
 - [PROJECT LIBRE](#project-libre)
 - [SAP ACTIVATE METHODOLOGY](#sap-activate-methodology)
@@ -251,6 +252,11 @@ There are 2 ways of installation.
      001 - Master client
      066 - Early watch client
      ```
+## SAP* and DDIC Super Users
+There are two super users on SAP
+
+SAP*  → Emergency superuser used by BASIS admin
+DDIC  → Data Dictionary / upgrades / repository
 
 ## SOLMAN - SOLUTION MANAGER
 
@@ -264,7 +270,9 @@ This tool allows versioning the Blue Print document.
 This is a tool of management of project timeline
 
 ## SAP ACTIVATE METHODOLOGY
+SAP ACTIVATE is a project management methodology to perform changes on a SAP environment to implement, fix, update, configure or develop some new features.
 
+This methodology 
 ---
 
 # LEARNING STRATEGY
@@ -295,11 +303,7 @@ This is a tool of management of project timeline
     - storage
 
 ---
-# SAP ACTIVATE
 
-SAP ACTIVATE is a project management methodology to perform changes on a SAP environment to implement, fix, update, configure or develop some new features.
-
-This methodology 
 
 
 
